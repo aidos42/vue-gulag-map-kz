@@ -8,10 +8,10 @@
     </div>
 
     <nav class="nav">
-      <router-link to="/" :class="{ 'active': isLinkActive('/') }">Main Page</router-link>
+      <router-link to="/" :class="{ 'active': isLinkActive('/') }">Карта</router-link>
       <router-link
-      to="/articles" :class="{ 'active': isLinkActive('/articles') }">Articles</router-link>
-      <router-link to="/about" :class="{ 'active': isLinkActive('/about') }">About</router-link>
+      to="/articles" :class="{ 'active': isLinkActive('/articles') }">Материалы</router-link>
+      <router-link to="/about" :class="{ 'active': isLinkActive('/about') }">О проекте</router-link>
     </nav>
   </header>
 </template>
