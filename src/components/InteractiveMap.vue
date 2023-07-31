@@ -66,7 +66,7 @@ export default defineComponent({
   methods: {
     async fetchMarkersData() {
       try {
-        const response = await fetch(process.env.VUE_APP_DATA_URL);
+        const response = await fetch('https://mongo-gateway-gulag-map-kz.onrender.com/api/camps');
         const data = await response.json();
         this.markersData = data;
       } catch (error) {
